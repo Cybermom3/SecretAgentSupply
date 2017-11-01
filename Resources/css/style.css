@@ -39,8 +39,8 @@ h2, h1 {
   padding-left:0.5 rem;
 }
 .main-banner {
-  background-image: url(./Resources/images/moto.
-    jpg);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg
+  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -68,6 +68,10 @@ h2, h1 {
 .menu {
   background-color: firebrick;
   padding: 0.75 rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 .menu .container p{
   display: none;
