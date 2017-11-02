@@ -1,6 +1,9 @@
 body{
 font-family: Helvetica;
 font-size: 18px;
+display:block;
+margin :0;
+
 
 }
 div {
@@ -20,23 +23,36 @@ title {
 h2, h1 {
   font-weight: bold;
 }
+.header {
+  background-color: black;
+ padding-top: 0.66rem;
+ padding-bottom: 0.66rem;
+}
+.logo {
+  height: 1.5 rem;
+  margin: 0rem 1rem
+  0rem 0.5rem
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
 .container {
   max-width: 960px;
-  margin: 0px auto;
+  margin: 0 auto;
+
 }
 
 }
-.company {
-  color: white;
-  background-color: black;
-  padding: 0.66rem;
-  width=100%;
-  font-size: 1rem;
-}
 .company img {
+  background-color: black;
+  color: white;
   height= 1.5em;
   padding-right: 1 rem;
   padding-left:0.5 rem;
+}
+.company .container span {
+  font-size: 1rem;
 }
 .main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg
@@ -70,72 +86,93 @@ nav {
   padding: 0.75 rem 0.5rem;
   color: white;
 }
-.menu container span{
 
-}
+
+
 nav ul{
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.75 rem 0;
+  padding: .75rem;
 
 }
+<!--flex container-->
+.product{
 
-.menu .container p{
-  display: none;
-  text-align: center;
 }
-.product .container{
-  display:flex;
-  padding: 3 rem 0;
+.product  .container{
+  display: flex;
   justify-content: space-between;
 
+  padding: 3rem 0rem;
 }
-.item {
-  display: flex;
-  align-items: center;
+.item  {
+  display:flex;
   flex-direction: column;
+  align-items: center;
+
+
+
   width: 30%;
-  border: 4p solid black;
-
+  border: 4px solid black;
 }
+
+
 .item img {
-  height:13rem;
+
+  height: 13rem;
+  padding: 2rem 0rem;
 
 }
-.item h1 {
-  width: 100%;
+.item span {
+
   padding: 0.5rem 0;
+  width: 100%;
   background-color: black;
   text-align: center;
+  color: white;
 }
+#glasses {
+
+  width: 30%;
+}
+
 
 .contact {
+
   padding-bottom: 4rem;
 }
-
 .contact .container {
   display: flex;
   justify-content: space-between;
+}
+.hours-container .location-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 35%;
 }
 
 .location {
   width: 35%;
 }
 
-.location h1 {
-  padding: 1rem 0 1rem 2rem;
-  background-color: black;
-}
 
-.location span {
+.location h1{
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+span {
   color: black;
 }
-.footer {
+
+
+footer {
   background-color: black;
-  padding: 2.5rem 0;
-}
-
-.footer .container {
-
+  height: 5rem;
+  color: white;
+  
+  text-align: left;
 }
