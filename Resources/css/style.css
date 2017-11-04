@@ -189,3 +189,62 @@ footer {
   align-items: center;
   text-align: left;
 }
+
+<!--Tablet Specific rules-->
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) and (min-width:470px){
+body {
+  font-size: 16px;
+}
+  .item {
+    width: 47%;
+  }
+  nav ul {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  nav .container {
+    display: flex;
+    justify-content: center;
+  }
+  .item .glasses {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 470px) {
+  .header img{
+    margin-left: 42%
+  }
+  .headline  {
+    top: 10rem;
+    padding: 1rem 2rem;
+    width: 100%
+  }
+  .headline h1 {
+    font-size: 0.77 rem;}
+    margin:0.25rem 0px;
+    .headline h2 {
+      font-size: 1 rem;
+    }
+
+  .main-banner {
+    height: 15 rem;
+  }
+  .item: {
+    width : 90%;
+  }
+  .item .glasses .watch {
+    display: none;
+  }
+  .footer {
+    text-align: center;
+  }
+  .hours-container .location-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+
+}
