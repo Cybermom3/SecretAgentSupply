@@ -207,7 +207,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .item .glasses {
+  .item.glasses {
     display: none;
   }
 
@@ -235,7 +235,7 @@ body {
   .item {
     width : 90%;
   }
-  .item.glasses .item.watch {
+  .item.glasses, .item.watch {
     display:none;
   }
   .footer {
