@@ -235,7 +235,7 @@ body {
   .item {
     width : 90%;
   }
-  .item .glasses .watch {
+  .item.glasses .item.watch {
     display: none;
   }
   .footer {
